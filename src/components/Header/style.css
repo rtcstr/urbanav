@@ -12,6 +12,7 @@ header p {
 
 }
 
+
 header > div {
 
     display: flex;
@@ -44,12 +45,35 @@ nav div ul {
 
 nav div li {
     padding-right: 32px;
+    position: relative;
+    cursor: pointer;
     
+}
+
+nav div li::after {
+    content: "";
+    width: 44px;
+    height: 4px;
+    background-color: var(--black);
+    position: absolute;
+    bottom: -28px;
+    left: -1px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .1s;
+    
+}
+
+nav div li:hover::after{
+    opacity: 1;
+    visibility: visible;
 
 }
 
+
 .home {
     font-weight: 600;
+    
 }
 
 .actions {
@@ -57,6 +81,34 @@ nav div li {
     justify-content: space-between;
     
 }
+
+.search {    
+    display: flex;
+    align-items: center;
+    position: relative;  
+}
+
+.search input {
+    padding: 8px;
+    background-color: transparent;
+    
+}
+
+
+.searchbutton {
+    background-color: transparent; 
+    padding: 0; 
+    position: absolute;
+    right: 25px;  
+    width: 24px;
+    bottom: 5px;
+}
+
+.searchbutton:hover {
+    background-color: transparent;
+}
+
+
 
 .actions img {
     padding-right: 32px;

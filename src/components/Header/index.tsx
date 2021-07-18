@@ -46,8 +46,14 @@ export function Header () {
                </div> 
 
                <div className="actions">
-                   <img src={search}/>
-                   <img src= {cart}/>
+                    
+                
+                <form className="search">
+                    <input type="search" id="search" placeholder="O que você procura?"/>
+                    <button className="searchbutton"><img src={search}/></button>
+                    </form>
+
+                    <img src= {cart}/>
                </div>               
            </nav>
             
