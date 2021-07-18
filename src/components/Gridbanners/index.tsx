@@ -1,35 +1,18 @@
 //css
 import './style.css'
 
-//logo
-import logo from '../../assets/logo.svg'
-
 //banners
-import homebanner from '../../assets/banners/homebanner.png'
 import banneradidas from '../../assets/banners/banneradidas.png'
 import bannervans from '../../assets/banners/bannervans.png'
 import bannerskate from '../../assets/banners/bannerskate.png'
 import bannerconverse from '../../assets/banners/bannerconverse.png'
 import bannerpuma from '../../assets/banners/bannerpuma.png'
-import colecaofem from '../../assets/banners/colecaofem.png'
-import colecaomasc from '../../assets/banners/colecaomas.png'
-
-//icons
-import github from '../../assets/icons/github.svg'
-import linkedin from '../../assets/icons/linkedin.svg'
-import facebook from '../../assets/icons/facebook.svg'
-import search from '../../assets/icons/search.svg'
-import cart from '../../assets/icons/cart.svg'
-import instagram from '../../assets/icons/instagram.svg'
-import menu from '../../assets/icons/menu.svg'
-import seta from '../../assets/icons/seta.svg'
-
 
 export function Gridbanners () {
     return (
 
        <section className="grid">
-           <a className="skate">
+           <a href="/" className="skate">
                <img src={bannerskate} alt="Seleção Skate"/>
                <p>Toda a linha Skate com até 40% OFF</p>
                
@@ -38,8 +21,8 @@ export function Gridbanners () {
             </a>
 
 
-           <a className="vans">
-               <img src={bannervans} alt=""/>
+           <a href="/" className="vans">
+               <img src={bannervans} alt="Vans"/>
                <p>Toda a linha Vans com até 70% OFF</p>
                
                Comprar
@@ -48,24 +31,24 @@ export function Gridbanners () {
             </a>
 
 
-           <a className="adidas">
-               <img src={banneradidas} alt=""/>
+           <a href="/" className="adidas">
+               <img src={banneradidas} alt="Adidas"/>
                <p>Toda a linha Adidas com até 40% OFF</p>
                
                
                Comprar
             </a>
 
-           <a className="converse">
-               <img src={bannerconverse} alt=""/>
+           <a href="/" className="converse">
+               <img src={bannerconverse} alt="Converse"/>
                <p>Linha Converse com até 90% OFF</p>
                
                
                Comprar
             </a>
 
-           <a className="puma">
-               <img src={bannerpuma} alt=""/>
+           <a href="/" className="puma">
+               <img src={bannerpuma} alt="Puma"/>
                <p>Toda linha Puma com até 60% OFF</p>
                
                Comprar 

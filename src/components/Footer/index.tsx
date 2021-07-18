@@ -4,28 +4,13 @@ import './style.css'
 //icons
 import github from '../../assets/icons/github.svg'
 import linkedin from '../../assets/icons/linkedin.svg'
-import facebook from '../../assets/icons/facebook.svg'
-import search from '../../assets/icons/search.svg'
-import cart from '../../assets/icons/cart.svg'
 import instagram from '../../assets/icons/instagram.svg'
-import menu from '../../assets/icons/menu.svg'
 
-//products
-import blusaazul from '../../assets/products/blusaazul.png'
-import blusacinza from '../../assets/products/blusacinza.png'
-import blusapreta from '../../assets/products/blusapreta.png'
-import calcabasica from '../../assets/products/calcabasica.png'
-import calcapolar from '../../assets/products/calcapolar.png'
-import calcasdmn from '../../assets/products/calcasdmn.png'
 
 //banners
-import colecaofem from '../../assets/banners/colecaofem.png'
-import colecaomasc from '../../assets/banners/colecaomasc.png'
+
 import { FormEvent } from 'react'
 import { useState } from 'react'
-
-
-
 
 
 export function Footer () {
@@ -59,12 +44,12 @@ export function Footer () {
         </section>
 
             <section className="author">
-                <p>Desenvolvido por Rita Brilhante</p>
+                <p>Desenvolvido por <strong>Rita Brilhante</strong></p>
                 
                 <div className="social">
-                    <a href="https://www.instagram.com/rtcstr/"><img src={instagram}/></a>
-                    <a href="https://github.com/rtcstr"><img src={github}/></a>
-                    <a href="https://www.linkedin.com/in/rtcstr/"><img src={linkedin}/></a>
+                    <a href="https://www.instagram.com/rtcstr/"><img src={instagram} alt="instagram"/></a>
+                    <a href="https://github.com/rtcstr"><img src={github} alt="GitHub"/></a>
+                    <a href="https://www.linkedin.com/in/rtcstr/"><img src={linkedin} alt="Linkedin"/></a>
                 </div>
 
             </section>

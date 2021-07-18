@@ -4,21 +4,10 @@ import './style.css'
 //logo
 import logo from '../../assets/logo.svg'
 
-//banners
-import homebanner from '../../assets/banners/homebanner.png'
-import banneradidas from '../../assets/banners/banneradidas.png'
-import bannervans from '../../assets/banners/bannervans.png'
-import bannerskate from '../../assets/banners/bannerskate.png'
-import bannerpuma from '../../assets/banners/bannerpuma.png'
-
 //icons
-import github from '../../assets/icons/github.svg'
-import linkedin from '../../assets/icons/linkedin.svg'
-import facebook from '../../assets/icons/facebook.svg'
+
 import search from '../../assets/icons/search.svg'
 import cart from '../../assets/icons/cart.svg'
-import instagram from '../../assets/icons/instagram.svg'
-import menu from '../../assets/icons/menu.svg'
 
 
 export function Header () {
@@ -50,10 +39,10 @@ export function Header () {
                 
                 <form className="search">
                     <input type="search" id="search" placeholder="O que você procura?"/>
-                    <button className="searchbutton"><img src={search}/></button>
+                    <button className="searchbutton"><img src={search} alt="pesquisar"/></button>
                     </form>
 
-                    <img src= {cart}/>
+                    <img src= {cart} alt="carrinho"/>
                </div>               
            </nav>
             
