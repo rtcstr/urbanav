@@ -10,8 +10,6 @@ import banneradidas from '../../assets/banners/banneradidas.png'
 import bannervans from '../../assets/banners/bannervans.png'
 import bannerskate from '../../assets/banners/bannerskate.png'
 import bannerpuma from '../../assets/banners/bannerpuma.png'
-import colecaofem from '../../assets/banners/colecaofem.png'
-import colecaomasc from '../../assets/banners/colecaomas.png'
 
 //icons
 import github from '../../assets/icons/github.svg'
@@ -26,6 +24,7 @@ import menu from '../../assets/icons/menu.svg'
 export function Header () {
     return (
 
+       <>
        <header>
            <div>
                 <p> promoção válida até 01/08/2021</p>
@@ -35,7 +34,7 @@ export function Header () {
 
            <nav>
                
-               <img height="38px" width="154px" src={logo}/>
+               <img height="38px" width="154px" src={logo} alt="Logo UrbaNav"/>
                
                <div>
                    <ul>
@@ -54,6 +53,9 @@ export function Header () {
             
         </header>
 
+        <div className="space"></div>
+
+        </>
 
     );
 

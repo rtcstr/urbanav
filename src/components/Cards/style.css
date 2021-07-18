@@ -1,0 +1,109 @@
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+.card {
+ 
+    width: 357px;
+    height: 464px;
+    text-align: center;
+    background-color: var(--cardcolor);
+    cursor: pointer;
+
+}
+
+.card + .card {
+    margin-left: 8px;
+}
+
+.card img {
+    padding: 16px 32px;
+    
+}
+
+
+
+.nomeproduto {
+    font-weight:600;
+}
+
+button {
+    padding: 8px 16px;
+    width:164px;
+    background-color: var(--black);
+    border-radius: 4px;
+    color: var(--white);
+    margin-top: 8px; 
+    cursor: pointer; 
+}
+
+button:hover{
+    background-color: var(--hoverblack);
+}
+
+.midbanners{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fem {
+    background-image: url("../../assets/banners/colecaofem.png");
+    width: 647px;
+    height: 381px;
+    justify-content: flex-end;
+    color: white;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mas {
+    background-image: url("../../assets/banners/colecaomasc.png");
+    width: 455px;
+    height: 381px;
+    justify-content: flex-end;
+    color: white;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.fem p {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.mas p {
+
+    font-size: 24px;
+    color: var(--white);
+    font-weight: 300;
+
+}
+
+.ghosthbutton {
+    border: 1px solid var(--white);
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.ghosthbutton:hover {
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--black);
+}
+
+.nomeproduto {
+    font-size: 14px;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+}

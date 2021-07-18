@@ -1,0 +1,31 @@
+section > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+section p {
+    font-size: 8px;
+    color: var(--black);
+    
+}
+
+.descontos div {
+    border: 0.4px solid var(--black);
+    padding: 8px 64px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.descontos div:hover {
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+    
+}
+
+
+
+ 
+
