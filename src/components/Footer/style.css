@@ -1,9 +1,14 @@
+footer {
+}
+
 .newsletter  {
     background-color: var(--cardcolor);
-    padding: 16px;
+    padding: 16px 32px;
     display: flex;
     justify-content: space-between;
-    margin: 24px 16px 24px 16px;
+    margin: 16px 0;
+
+   
 }
 
 
@@ -46,11 +51,14 @@ input {
 
 
 .author {
+    background-color: var(--yellow);  
+    padding: 16px 0;  
+}
+
+.author main{
     display: flex;
     justify-content: space-between;
-    background-color: var(--yellow);
-    padding: 1px 16px;
-       
+    
 }
 
 .author p {

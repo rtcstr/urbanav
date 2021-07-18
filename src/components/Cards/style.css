@@ -76,6 +76,8 @@ button:hover{
     flex-direction: column;
     margin-top: 32px;
     margin-right: 8px;
+    display: flex;
+    padding: 16px;
     
 }
 
@@ -88,6 +90,8 @@ button:hover{
     align-items: flex-start;
     flex-direction: column;
     margin-top: 32px;
+    display: flex;
+    padding: 16px;
 
 }
 
