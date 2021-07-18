@@ -29,21 +29,35 @@ import colecaomasc from '../../assets/banners/colecaomasc.png'
 export function Footer () {
     return (
 
-        <section className="newsletter">
-            <div className="label">
-            <p className="primeiracompra">Ganhe R$50 na primeira compra</p>
-            <p className="acimade400">Válido apenas para compras acima de R$400</p>
+        <footer>
+            
+           <section className="newsletter">
+           <div className="label">
+                <p className="primeiracompra">Ganhe R$50 na primeira compra</p>
+                <p className="acimade400">Válido apenas para compras acima de R$400</p>
             </div>
 
-            <form>
-                <input type="email"/>
+            <form action="">
+                
+                <input type="email" id="email" placeholder="Digite seu e-mail"/>
+                <button className="input-button">cadastrar</button>
+
             </form>
-
-
-
-
-
         </section>
+
+            <section className="author">
+                <p>Desenvolvido por Rita Brilhante</p>
+                
+                <div className="social">
+                    <a href="https://www.instagram.com/rtcstr/"><img src={instagram}/></a>
+                    <a href="https://github.com/rtcstr"><img src={github}/></a>
+                    <a href="https://www.linkedin.com/in/rtcstr/"><img src={linkedin}/></a>
+                </div>
+
+            </section>
+        </footer>
+
+        
     );
 
 
