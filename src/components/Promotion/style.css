@@ -1,3 +1,12 @@
+
+.h1 {
+    font-size: 32px;
+    text-align: center;
+    margin: 16PX 0px;
+    font-weight: 800;
+
+}
+
 section > div {
     display: flex;
     align-items: center;
@@ -13,7 +22,7 @@ section p {
 
 .descontos div {
     border: 0.4px solid var(--black);
-    padding: 8px 64px;
+    padding: 8px 74px;
     font-weight: 600;
     margin-bottom: 16px;
 }

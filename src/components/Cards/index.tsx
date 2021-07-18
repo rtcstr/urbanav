@@ -31,7 +31,7 @@ export function Cards () {
 
       <section className="productcard">
           <article>
-          <h3>seleção inverno</h3>
+          <h3>seleção <span>inverno</span></h3>
 
             <div className="container">
                     <div className="card">
@@ -84,6 +84,8 @@ export function Cards () {
              </div>    
         </section>
 
+        
+        <h3>calças <span>masculinas</span></h3>
         <div className="container">
                     <div className="card">
                         

@@ -21,12 +21,23 @@ import calcasdmn from '../../assets/products/calcasdmn.png'
 //banners
 import colecaofem from '../../assets/banners/colecaofem.png'
 import colecaomasc from '../../assets/banners/colecaomasc.png'
+import { FormEvent } from 'react'
+import { useState } from 'react'
 
 
 
 
 
 export function Footer () {
+    
+    const [email, setEmail]=useState ("")
+    function saveLocalstorage (e:FormEvent) {
+        e.preventDefault()
+        localStorage.setItem("email", email) 
+    }
+
+    
+    
     return (
 
         <footer>
@@ -37,12 +48,14 @@ export function Footer () {
                 <p className="acimade400">Válido apenas para compras acima de R$400</p>
             </div>
 
-            <form action="">
+            <form onSubmit={saveLocalstorage}>
                 
-                <input type="email" id="email" placeholder="Digite seu e-mail"/>
-                <button className="input-button">cadastrar</button>
+                <input onChange={e => {setEmail(e.target.value)}} type="email" id="email" placeholder="Digite seu e-mail"/>
+                <button type="submit" className="input-button">cadastrar</button>
 
             </form>
+
+
         </section>
 
             <section className="author">
